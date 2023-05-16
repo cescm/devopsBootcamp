@@ -19,3 +19,9 @@ Exercise 3: use a dockerfile to create an image running a war application deploy
 Exercise 4: use a docker compose to create a stack
 
       docker-compose –f jenkins.yml up -d
+
+The Vagrant exercise consists in creating a kubernetes cluster with 3 machines (requires VirtualBox to be installed):
+1 master node with 2048MB RAM and 2 cpu
+2 worker nodes with 1024 RAM and 1 cpu
+
+    vagrant up
